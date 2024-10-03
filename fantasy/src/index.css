@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #b7baf0;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #b0b4f5;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url('../public/desktop.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  body{
+    background-image: url('../public/mobile.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+  }
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color:#303030;
+}
+h2{
+  /* margin: 0 auto; */
+  text-align: center;
+  color:#303030;
+}
+@media (max-width: 768px) {
+  h2{
+  width: 90%;
+  margin: 0 auto;
+  }
+}
+h3{
+  padding: 1%;
+  color:#303030;
+}
+@media (max-width: 768px) {
+  h3{
+  text-align: center;
+  /* width: 85%; */
+  }
+}
+p{
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 10px 0;
+  color:#303030;
+}
+@media (max-width: 768px) {
+  p{
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  /* width: 28%; */
+  }
+}
+button {
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+} 
+ 

@@ -1,0 +1,24 @@
+.name, .gender-options, .birthDate, .me{
+    color:#303030;
+}
+.gender-options{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.submit__button{
+    background: linear-gradient(to right,#574DCC, #579AFF);
+border-color: transparent;
+}
+.agree{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.agree-checkbox{
+    margin-right: 10px;
+}
